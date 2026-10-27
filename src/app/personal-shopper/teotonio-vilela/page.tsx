@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 };
 
 // =========================================================================
-// 2. GRAFO SEMÂNTICO SCHEMA.ORG (TEOTÔNIO VILELA - 100% AMARRADO)
+// 2. GRAFO SEMÂNTICO SCHEMA.ORG (PADRÃO ELITE EG EMPÓRIO DIGITAL)
 // =========================================================================
 const jsonLd = {
   "@context": "https://schema.org",
@@ -37,9 +37,24 @@ const jsonLd = {
       "url": "https://importsparaguai.com.br/personal-shopper/teotonio-vilela",
       "description":
         "Serviço especializado de Personal Shopper no Paraguai, compras assistidas e importação segura para clientes do Teotônio Vilela, Sapopemba e Zona Leste de São Paulo.",
+      "telephone": "+5511916053292",
+      "priceRange": "$$",
       "provider": {
         "@id": "https://importsparaguai.com.br/#business"
       },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Avenida Sapopemba / Teotônio Vilela",
+        "addressLocality": "São Paulo",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-23.6065",
+        "longitude": "-46.4950"
+      },
+      "hasMap": "https://share.google/ZEX1CMUlRAKlUPOPu",
       "areaServed": [
         { "@type": "Place", "name": "Teotônio Vilela" },
         { "@type": "Place", "name": "Sapopemba" },
@@ -49,7 +64,17 @@ const jsonLd = {
         { "@type": "Place", "name": "Parque São Rafael" },
         { "@type": "Place", "name": "São Mateus" },
         { "@type": "AdministrativeArea", "name": "Zona Leste SP" }
-      ]
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Serviços de Personal Shopper no Paraguai para o Teotônio Vilela",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Compras Assistidas de iPhones e Apple Lacrados" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Importação de Perfumes de Grife e Cosméticos Oficiais" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Conferência Presencial com Chamada de Vídeo ao Vivo" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Envio com Seguro de Carga e Rastreamento para a Zona Leste" } }
+        ]
+      }
     },
     {
       "@type": "BreadcrumbList",
@@ -58,6 +83,36 @@ const jsonLd = {
         { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://importsparaguai.com.br/" },
         { "@type": "ListItem", "position": 2, "name": "Personal Shopper", "item": "https://importsparaguai.com.br/" },
         { "@type": "ListItem", "position": 3, "name": "Teotônio Vilela", "item": "https://importsparaguai.com.br/personal-shopper/teotonio-vilela" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://importsparaguai.com.br/personal-shopper/teotonio-vilela#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Como contratar o personal shopper no Paraguai para entrega no Teotônio Vilela?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Você envia sua lista de eletrônicos ou perfumes pelo WhatsApp. Realizamos a cotação no comércio de Ciudad del Este, conferimos lacres e números de série ao vivo por vídeo chamada e despachamos com seguro total até o seu endereço no Teotônio Vilela, Sapopemba e Zona Leste."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual o prazo de envio e como funciona o seguro até a região da Sapopemba?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Os pedidos contam com seguro integral contra extravios ou avarias. O prazo médio de entrega para o Teotônio Vilela, São Mateus e imediações da Avenida Sapopemba é de 3 a 7 dias úteis após a postagem nos Correios ou transportadora parceira com rastreamento oficial."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comerciantes e lojistas do Teotônio Vilela podem comprar para revenda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Atendemos lojistas, assistências e revendedores da região com pedidos fracionados recorrentes de eletrônicos, caixas de som e perfumaria de nicho, garantindo preços diretos das maiores importadoras oficiais sem intermediários."
+          }
+        }
       ]
     }
   ]
@@ -445,7 +500,7 @@ export default function TeotonioVilelaPage() {
               
               {/* IMAGEM 1 IDÊNTICA */}
               <div className="group relative rounded-[2rem] p-1.5 bg-gradient-to-b from-neutral-200/70 to-neutral-200/30 shadow-xl overflow-hidden">
-                <div className="relative w-full aspect-[16/10] sm:aspect-[16/11] rounded-[1.7rem] overflow-hidden bg-neutral-950">
+                <div className="relative w-full aspect-[4/3] sm:aspect-[16/11] rounded-[1.7rem] overflow-hidden bg-neutral-950">
                   <img src="/categorias.jpg" alt="Perfumes e Cosméticos Importados" className="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
                   <div className="absolute top-3.5 left-3.5 px-3 py-1 rounded-lg bg-neutral-950/50 backdrop-blur-md border border-white/15">
@@ -468,7 +523,7 @@ export default function TeotonioVilelaPage() {
 
               {/* IMAGEM 2 IDÊNTICA */}
               <div className="group relative rounded-[2rem] p-1.5 bg-gradient-to-b from-neutral-200/70 to-neutral-200/30 shadow-xl overflow-hidden">
-                <div className="relative w-full aspect-[16/10] sm:aspect-[16/11] rounded-[1.7rem] overflow-hidden bg-neutral-950">
+                <div className="relative w-full aspect-[4/3] sm:aspect-[16/11] rounded-[1.7rem] overflow-hidden bg-neutral-950">
                   <img src="/categorias-2.jpg" alt="Eletrônicos e Linha Apple no Paraguai" className="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
                   <div className="absolute top-3.5 left-3.5 px-3 py-1 rounded-lg bg-neutral-950/50 backdrop-blur-md border border-white/15">
@@ -627,6 +682,74 @@ export default function TeotonioVilelaPage() {
               </div>
             </div>
 
+          </div>
+        </section>
+
+        {/* ========================================================
+            FAQ SECTION (TEOTÔNIO VILELA - 100% SINCRONIZADO)
+           ======================================================== */}
+        <section id="faq" className="w-full py-16 md:py-24 px-5 lg:px-8 border-t border-neutral-200/80 relative z-10">
+          <div className="max-w-4xl mx-auto">
+            {/* Header com respiro refinado */}
+            <div className="mb-10 text-left">
+              <span className="text-xs font-bold uppercase tracking-widest text-cyan-700 bg-cyan-50/90 border border-cyan-200/70 px-3 py-1 rounded-full inline-block mb-3.5 shadow-2xs">
+                Dúvidas Frequentes • Teotônio Vilela & Sapopemba
+              </span>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl text-neutral-950 font-black tracking-tight leading-tight">
+                Perguntas sobre a compra no{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600">
+                  Teotônio Vilela
+                </span>
+              </h2>
+            </div>
+
+            {/* Lista dos cards do FAQ com espaçamento nobre e max-width harmônico */}
+            <div className="space-y-4">
+              {/* FAQ 1 */}
+              <details className="group rounded-2xl bg-white border border-neutral-200/80 p-5 sm:p-6 transition-all duration-200 hover:border-cyan-500/50 hover:shadow-md shadow-xs">
+                <summary className="flex items-center justify-between cursor-pointer select-none list-none [&::-webkit-details-marker]:hidden font-extrabold text-sm sm:text-base text-neutral-950 gap-4">
+                  <span>Como contratar o personal shopper no Paraguai para entrega no Teotônio Vilela?</span>
+                  <div className="w-8 h-8 rounded-full border border-neutral-200/90 flex items-center justify-center bg-neutral-50 shrink-0 group-hover:bg-cyan-50 group-open:border-cyan-500 group-open:bg-cyan-50 transition-all">
+                    <svg className="w-4 h-4 text-cyan-700 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </div>
+                </summary>
+                <p className="text-xs sm:text-sm text-neutral-600 font-normal leading-relaxed mt-4 pt-4 border-t border-neutral-100">
+                  Você envia sua lista de eletrônicos ou perfumes pelo WhatsApp. Realizamos a cotação no comércio de Ciudad del Este, conferimos lacres e números de série ao vivo por vídeo chamada e despachamos com seguro total até o seu endereço no Teotônio Vilela, Sapopemba e Zona Leste.
+                </p>
+              </details>
+
+              {/* FAQ 2 */}
+              <details className="group rounded-2xl bg-white border border-neutral-200/80 p-5 sm:p-6 transition-all duration-200 hover:border-cyan-500/50 hover:shadow-md shadow-xs">
+                <summary className="flex items-center justify-between cursor-pointer select-none list-none [&::-webkit-details-marker]:hidden font-extrabold text-sm sm:text-base text-neutral-950 gap-4">
+                  <span>Qual o prazo de envio e como funciona o seguro até a região da Sapopemba?</span>
+                  <div className="w-8 h-8 rounded-full border border-neutral-200/90 flex items-center justify-center bg-neutral-50 shrink-0 group-hover:bg-cyan-50 group-open:border-cyan-500 group-open:bg-cyan-50 transition-all">
+                    <svg className="w-4 h-4 text-cyan-700 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </div>
+                </summary>
+                <p className="text-xs sm:text-sm text-neutral-600 font-normal leading-relaxed mt-4 pt-4 border-t border-neutral-100">
+                  Os pedidos contam com seguro integral contra extravios ou avarias. O prazo médio de entrega para o Teotônio Vilela, São Mateus e imediações da Avenida Sapopemba é de 3 a 7 dias úteis após a postagem nos Correios ou transportadora parceira com rastreamento oficial.
+                </p>
+              </details>
+
+              {/* FAQ 3 */}
+              <details className="group rounded-2xl bg-white border border-neutral-200/80 p-5 sm:p-6 transition-all duration-200 hover:border-cyan-500/50 hover:shadow-md shadow-xs">
+                <summary className="flex items-center justify-between cursor-pointer select-none list-none [&::-webkit-details-marker]:hidden font-extrabold text-sm sm:text-base text-neutral-950 gap-4">
+                  <span>Comerciantes e lojistas do Teotônio Vilela podem comprar para revenda?</span>
+                  <div className="w-8 h-8 rounded-full border border-neutral-200/90 flex items-center justify-center bg-neutral-50 shrink-0 group-hover:bg-cyan-50 group-open:border-cyan-500 group-open:bg-cyan-50 transition-all">
+                    <svg className="w-4 h-4 text-cyan-700 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </div>
+                </summary>
+                <p className="text-xs sm:text-sm text-neutral-600 font-normal leading-relaxed mt-4 pt-4 border-t border-neutral-100">
+                  Sim. Atendemos lojistas, assistências e revendedores da região com pedidos fracionados recorrentes de eletrônicos, caixas de som e perfumaria de nicho, garantindo preços diretos das maiores importadoras oficiais sem intermediários.
+                </p>
+              </details>
+            </div>
           </div>
         </section>
 

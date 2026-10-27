@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 };
 
 // =========================================================================
-// 2. GRAFO SEMÂNTICO SCHEMA.ORG (SEM FAQ - 100% FIEL À HOME E AMARRADO)
+// 2. GRAFO SEMÂNTICO SCHEMA.ORG (PADRÃO ELITE EG EMPÓRIO DIGITAL)
 // =========================================================================
 const jsonLd = {
   "@context": "https://schema.org",
@@ -38,9 +38,23 @@ const jsonLd = {
       "url": "https://importsparaguai.com.br/personal-shopper/sao-paulo",
       "description":
         "Serviço especializado de Personal Shopper no Paraguai, compras assistidas e importação segura para clientes de São Paulo e região.",
+      "telephone": "+5511916053292",
+      "priceRange": "$$",
       "provider": {
         "@id": "https://importsparaguai.com.br/#business"
       },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "São Paulo",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-23.5505",
+        "longitude": "-46.6333"
+      },
+      "hasMap": "https://share.google/ZEX1CMUlRAKlUPOPu",
       "areaServed": [
         { "@type": "City", "name": "São Paulo" },
         { "@type": "AdministrativeArea", "name": "Grande São Paulo" },
@@ -49,7 +63,17 @@ const jsonLd = {
         { "@type": "City", "name": "São Bernardo do Campo" },
         { "@type": "City", "name": "São Caetano do Sul" },
         { "@type": "City", "name": "Campinas" }
-      ]
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Serviços de Personal Shopper no Paraguai para São Paulo",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Compras Assistidas de iPhones e Apple Lacrados" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Importação de Perfumes de Grife e Cosméticos Oficiais" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Conferência Presencial com Chamada de Vídeo ao Vivo" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Envio com Seguro de Carga e Rastreamento para SP" } }
+        ]
+      }
     },
     {
       "@type": "BreadcrumbList",
@@ -58,6 +82,36 @@ const jsonLd = {
         { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://importsparaguai.com.br/" },
         { "@type": "ListItem", "position": 2, "name": "Personal Shopper", "item": "https://importsparaguai.com.br/" },
         { "@type": "ListItem", "position": 3, "name": "São Paulo", "item": "https://importsparaguai.com.br/personal-shopper/sao-paulo" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://importsparaguai.com.br/personal-shopper/sao-paulo#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Como funciona o serviço de personal shopper no Paraguai para São Paulo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Você nos envia a lista de produtos desejados, realizamos a cotação em tempo real nas maiores importadoras e lojas autorizadas de Ciudad del Este, conferimos o item por vídeo chamada e despachamos com seguro total até o seu endereço em São Paulo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como é calculado o frete e qual o prazo de entrega para São Paulo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O frete é calculado com base no peso e dimensões da mercadoria, com seguro integral anti-extravio. As encomendas para São Paulo e Grande SP levam em média de 3 a 7 dias úteis após a postagem nacional com código de rastreamento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Os produtos comprados no Paraguai possuem garantia oficial no Brasil?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Adquirimos produtos exclusivamente em distribuidores homologados pelas fabricantes. Marcas globais como Apple oferecem 1 ano de garantia com atendimento em qualquer autorizada de São Paulo. A nota de compra acompanha o item."
+          }
+        }
       ]
     }
   ]
@@ -445,7 +499,7 @@ export default function SaoPauloPage() {
               
               {/* IMAGEM 1 IDÊNTICA */}
               <div className="group relative rounded-[2rem] p-1.5 bg-gradient-to-b from-neutral-200/70 to-neutral-200/30 shadow-xl overflow-hidden">
-                <div className="relative w-full aspect-[16/10] sm:aspect-[16/11] rounded-[1.7rem] overflow-hidden bg-neutral-950">
+                <div className="relative w-full aspect-[4/3] sm:aspect-[16/11] rounded-[1.7rem] overflow-hidden bg-neutral-950">
                   <img src="/categorias.jpg" alt="Perfumes e Cosméticos Importados" className="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
                   <div className="absolute top-3.5 left-3.5 px-3 py-1 rounded-lg bg-neutral-950/50 backdrop-blur-md border border-white/15">
@@ -468,7 +522,7 @@ export default function SaoPauloPage() {
 
               {/* IMAGEM 2 IDÊNTICA */}
               <div className="group relative rounded-[2rem] p-1.5 bg-gradient-to-b from-neutral-200/70 to-neutral-200/30 shadow-xl overflow-hidden">
-                <div className="relative w-full aspect-[16/10] sm:aspect-[16/11] rounded-[1.7rem] overflow-hidden bg-neutral-950">
+                <div className="relative w-full aspect-[4/3] sm:aspect-[16/11] rounded-[1.7rem] overflow-hidden bg-neutral-950">
                   <img src="/categorias-2.jpg" alt="Eletrônicos e Linha Apple no Paraguai" className="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
                   <div className="absolute top-3.5 left-3.5 px-3 py-1 rounded-lg bg-neutral-950/50 backdrop-blur-md border border-white/15">
@@ -627,6 +681,74 @@ export default function SaoPauloPage() {
               </div>
             </div>
 
+          </div>
+        </section>
+
+        {/* ========================================================
+            FAQ SECTION (COMPACTO, ELEGANTE E 100% SINCRONIZADO)
+           ======================================================== */}
+        <section id="faq" className="w-full py-16 md:py-24 px-5 lg:px-8 border-t border-neutral-200/80 relative z-10">
+          <div className="max-w-4xl mx-auto">
+            {/* Header com respiro refinado */}
+            <div className="mb-10 text-left">
+              <span className="text-xs font-bold uppercase tracking-widest text-cyan-700 bg-cyan-50/90 border border-cyan-200/70 px-3 py-1 rounded-full inline-block mb-3.5 shadow-2xs">
+                Dúvidas Frequentes • Atendimento São Paulo
+              </span>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl text-neutral-950 font-black tracking-tight leading-tight">
+                Perguntas sobre a compra em{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600">
+                  São Paulo
+                </span>
+              </h2>
+            </div>
+
+            {/* Lista dos cards do FAQ com espaçamento nobre e max-width harmônico */}
+            <div className="space-y-4">
+              {/* FAQ 1 */}
+              <details className="group rounded-2xl bg-white border border-neutral-200/80 p-5 sm:p-6 transition-all duration-200 hover:border-cyan-500/50 hover:shadow-md shadow-xs">
+                <summary className="flex items-center justify-between cursor-pointer select-none list-none [&::-webkit-details-marker]:hidden font-extrabold text-sm sm:text-base text-neutral-950 gap-4">
+                  <span>Como funciona o serviço de personal shopper no Paraguai para São Paulo?</span>
+                  <div className="w-8 h-8 rounded-full border border-neutral-200/90 flex items-center justify-center bg-neutral-50 shrink-0 group-hover:bg-cyan-50 group-open:border-cyan-500 group-open:bg-cyan-50 transition-all">
+                    <svg className="w-4 h-4 text-cyan-700 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </div>
+                </summary>
+                <p className="text-xs sm:text-sm text-neutral-600 font-normal leading-relaxed mt-4 pt-4 border-t border-neutral-100">
+                  Você nos envia a lista de produtos desejados, realizamos a cotação em tempo real nas maiores importadoras e lojas autorizadas de Ciudad del Este, conferimos o item por vídeo chamada e despachamos com seguro total até o seu endereço em São Paulo.
+                </p>
+              </details>
+
+              {/* FAQ 2 */}
+              <details className="group rounded-2xl bg-white border border-neutral-200/80 p-5 sm:p-6 transition-all duration-200 hover:border-cyan-500/50 hover:shadow-md shadow-xs">
+                <summary className="flex items-center justify-between cursor-pointer select-none list-none [&::-webkit-details-marker]:hidden font-extrabold text-sm sm:text-base text-neutral-950 gap-4">
+                  <span>Como é calculado o frete e qual o prazo de entrega para São Paulo?</span>
+                  <div className="w-8 h-8 rounded-full border border-neutral-200/90 flex items-center justify-center bg-neutral-50 shrink-0 group-hover:bg-cyan-50 group-open:border-cyan-500 group-open:bg-cyan-50 transition-all">
+                    <svg className="w-4 h-4 text-cyan-700 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </div>
+                </summary>
+                <p className="text-xs sm:text-sm text-neutral-600 font-normal leading-relaxed mt-4 pt-4 border-t border-neutral-100">
+                  O frete é calculado com base no peso e dimensões da mercadoria, com seguro integral anti-extravio. As encomendas para São Paulo e Grande SP levam em média de 3 a 7 dias úteis após a postagem nacional com código de rastreamento.
+                </p>
+              </details>
+
+              {/* FAQ 3 */}
+              <details className="group rounded-2xl bg-white border border-neutral-200/80 p-5 sm:p-6 transition-all duration-200 hover:border-cyan-500/50 hover:shadow-md shadow-xs">
+                <summary className="flex items-center justify-between cursor-pointer select-none list-none [&::-webkit-details-marker]:hidden font-extrabold text-sm sm:text-base text-neutral-950 gap-4">
+                  <span>Os produtos comprados no Paraguai possuem garantia oficial no Brasil?</span>
+                  <div className="w-8 h-8 rounded-full border border-neutral-200/90 flex items-center justify-center bg-neutral-50 shrink-0 group-hover:bg-cyan-50 group-open:border-cyan-500 group-open:bg-cyan-50 transition-all">
+                    <svg className="w-4 h-4 text-cyan-700 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </div>
+                </summary>
+                <p className="text-xs sm:text-sm text-neutral-600 font-normal leading-relaxed mt-4 pt-4 border-t border-neutral-100">
+                  Sim. Adquirimos produtos exclusivamente em distribuidores homologados pelas fabricantes. Marcas globais como Apple oferecem 1 ano de garantia com atendimento em qualquer autorizada de São Paulo. A nota de compra acompanha o item.
+                </p>
+              </details>
+            </div>
           </div>
         </section>
 

@@ -60,7 +60,7 @@ export default function Categories() {
           
           {/* IMAGEM 1: PERFUMES E COSMÉTICOS */}
           <div className="group relative rounded-[2rem] p-1.5 bg-gradient-to-b from-neutral-200/70 to-neutral-200/30 shadow-xl overflow-hidden">
-            <div className="relative w-full aspect-[16/10] sm:aspect-[16/11] rounded-[1.7rem] overflow-hidden bg-neutral-950">
+            <div className="relative w-full aspect-[4/3] sm:aspect-[16/11] rounded-[1.7rem] overflow-hidden bg-neutral-950">
               <img
                 src="/categorias.jpg"
                 alt="Perfumes e Cosméticos Importados"
@@ -91,7 +91,7 @@ export default function Categories() {
 
           {/* IMAGEM 2: ELETRÔNICOS E LINHA APPLE */}
           <div className="group relative rounded-[2rem] p-1.5 bg-gradient-to-b from-neutral-200/70 to-neutral-200/30 shadow-xl overflow-hidden">
-            <div className="relative w-full aspect-[16/10] sm:aspect-[16/11] rounded-[1.7rem] overflow-hidden bg-neutral-950">
+            <div className="relative w-full aspect-[4/3] sm:aspect-[16/11] rounded-[1.7rem] overflow-hidden bg-neutral-950">
               <img
                 src="/categorias-2.jpg"
                 alt="Eletrônicos e Linha Apple no Paraguai"

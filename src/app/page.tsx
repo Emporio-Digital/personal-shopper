@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import Categories from "@/components/Categories";
 import GuaranteesCTA from "@/components/GuaranteesCTA";
+import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import AuthorityPillars from "@/components/AuthorityPillars";
 
@@ -16,6 +17,7 @@ export default function Home() {
         <HowItWorks />
         <Categories />
         <GuaranteesCTA />
+        <FAQ />
         <AuthorityPillars />
       </main>
 
