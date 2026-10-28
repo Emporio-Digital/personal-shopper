@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,6 +34,12 @@ export default function Navbar() {
 
           {/* CENTRO: LINKS DE NAVEGAÇÃO COM MAIS PESO & PRESENÇA */}
           <nav className="hidden md:flex items-center gap-8 lg:gap-10">
+            <Link
+              href="/"
+              className="text-sm lg:text-[15px] font-extrabold text-neutral-900 hover:text-blue-600 transition-colors tracking-tight relative py-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-cyan-500 after:to-blue-600 hover:after:w-full after:transition-all after:duration-300"
+            >
+              Início
+            </Link>
             <a
               href="#como-funciona"
               className="text-sm lg:text-[15px] font-extrabold text-neutral-900 hover:text-blue-600 transition-colors tracking-tight relative py-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-cyan-500 after:to-blue-600 hover:after:w-full after:transition-all after:duration-300"
@@ -108,6 +115,15 @@ export default function Navbar() {
         <div className="px-6 py-6 flex flex-col">
           {/* LISTA DE LINKS COM O "+" NA DIREITA IGUAL AO PRINT */}
           <nav className="flex flex-col divide-y divide-neutral-100">
+            <Link
+              href="/"
+              onClick={() => setIsOpen(false)}
+              className="flex items-center justify-between py-4 text-[16px] font-semibold text-neutral-900 hover:text-blue-600 transition-colors"
+            >
+              <span>Início</span>
+              <span className="text-neutral-300 text-lg font-light">+</span>
+            </Link>
+
             <a
               href="#como-funciona"
               onClick={() => setIsOpen(false)}

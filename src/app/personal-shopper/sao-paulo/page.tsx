@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 // =========================================================================
 // 1. METADADOS (NEXT.JS APP ROUTER)
@@ -226,7 +227,7 @@ export default function SaoPauloPage() {
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-600">
                     sem sair de casa
                   </span>{" "}
-                  em São Paulo e com total segurança.
+                  em São Paulo com Personal Shopper.
                 </h1>
 
                 {/* Imagem Mobile (COM TODOS OS CARDS E BADGES ORIGINAIS) */}
@@ -362,7 +363,7 @@ export default function SaoPauloPage() {
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-neutral-950 leading-[1.15]">
                 Como funciona sua compra em São Paulo do{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-600">
-                  início ao fim
+                  início ao fim com Personal Shopper
                 </span>
               </h2>
               <p className="text-neutral-600 text-base sm:text-lg mt-4 font-normal max-w-xl mx-auto leading-relaxed">
@@ -695,7 +696,7 @@ export default function SaoPauloPage() {
                 Dúvidas Frequentes • Atendimento São Paulo
               </span>
               <h2 className="text-2xl sm:text-3xl md:text-4xl text-neutral-950 font-black tracking-tight leading-tight">
-                Perguntas sobre a compra em{" "}
+                Perguntas sobre Personal Shopper em{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600">
                   São Paulo
                 </span>
@@ -754,6 +755,7 @@ export default function SaoPauloPage() {
 
         {/* ========================================================
             AUTHORITY PILLARS (ACORDEON IDÊNTICO À HOME)
+            COM LINK JUICE INTEGRADO AOS HUBS OFICIAIS
            ======================================================== */}
         <section id="tese-autoridade" className="w-full max-w-7xl mx-auto pt-2 pb-6 px-4 md:px-6 relative z-10 text-left">
           <details className="group w-full text-left">
@@ -766,7 +768,7 @@ export default function SaoPauloPage() {
                 <div className="flex items-center gap-4 text-left">
                   <h2 className="text-2xl md:text-4xl text-neutral-900 font-extrabold uppercase tracking-tight leading-tight text-left">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600">
-                      Autoridade em Importação em São Paulo
+                      Personal Shopper em São Paulo
                     </span>
                   </h2>
 
@@ -788,138 +790,138 @@ export default function SaoPauloPage() {
             <div className="grid grid-rows-[0fr] group-open:grid-rows-[1fr] transition-[grid-template-rows] duration-700 ease-in-out">
               <div className="overflow-hidden">
                 <div className="py-8 text-neutral-700 text-sm md:text-base leading-relaxed text-justify font-normal border-t border-neutral-200 mt-4">
-              <p className="mb-8 text-neutral-800">
-                A <strong>EG Imports Paraguai</strong> não atua como mera intermediária de pacotes; nós operamos uma estrutura proprietária de compras assistidas em Ciudad del Este desenhada para proteger o capital do comprador de <strong>São Paulo</strong>. Nossa metodologia une inspeção física, blindagem tributária e auditoria fiscal em 12 pilares técnicos fundamentais para quem busca economizar até 60% com procedência comprovada:
-              </p>
-
-              {/* Grid Responsivo 12 Pilares - PALAVRA-CHAVE MARTELADA: Personal Shopper Paraguai */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-10">
-                
-                {/* PILAR 1 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    1. Personal Shopper Paraguai em São Paulo: Assessoria Presencial de Elite
-                  </h3>
-                  <p className="text-neutral-600">
-                    Comprar além da fronteira exige presença física especializada. O serviço de <strong>personal shopper Paraguai</strong> elimina o turismo desnecessário saindo de São Paulo e os custos com passagens aéreas e hospedagem. Nossos consultores atuam in loco nos maiores polos comerciais de Ciudad del Este, mapeando estoques em tempo real e negociando diretamente com distribuidores autorizados para garantir sempre o menor preço com nota legal.
+                  <p className="mb-8 text-neutral-800">
+                    A <strong>EG Imports Paraguai</strong> não atua como mera intermediária de pacotes; nós operamos uma estrutura proprietária de compras assistidas em Ciudad del Este desenhada para proteger o capital do comprador de <strong>São Paulo</strong>. Através do nosso serviço oficial de <Link href="/personal-shopper" className="text-cyan-700 font-bold hover:underline">personal shopper no Paraguai</Link>, unimos inspeção física, blindagem tributária e auditoria fiscal em 12 pilares técnicos fundamentais para quem busca economizar até 60% com procedência comprovada:
                   </p>
-                </div>
 
-                {/* PILAR 2 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    2. Personal Shopper Paraguai em São Paulo com Segurança e Transparência
-                  </h3>
-                  <p className="text-neutral-600">
-                    A dinâmica operacional de <strong>personal shopper Paraguai</strong> é estruturada em etapas claras: recebimento da lista de desejos do cliente de São Paulo, cotação do dólar comercial em tempo real, compra em lojas credenciadas, conferência minuciosa de cada item e despacho nacional com rastreamento integral. Esse fluxo remove a incerteza do processo e assegura que você receba exatamente o que contratou.
+                  {/* Grid Responsivo 12 Pilares - PALAVRA-CHAVE MARTELADA: Personal Shopper Paraguai */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-10">
+                    
+                    {/* PILAR 1 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        1. Personal Shopper Paraguai em São Paulo: Assessoria Presencial de Elite
+                      </h3>
+                      <p className="text-neutral-600">
+                        Comprar além da fronteira exige presença física especializada. O serviço de <strong>personal shopper Paraguai</strong> elimina o turismo desnecessário saindo de São Paulo e os custos com passagens aéreas e hospedagem. Nossos consultores atuam in loco nos maiores polos comerciais de Ciudad del Este, mapeando estoques em tempo real e negociando diretamente com distribuidores autorizados para garantir sempre o menor preço com nota legal.
+                      </p>
+                    </div>
+
+                    {/* PILAR 2 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        2. Personal Shopper Paraguai em São Paulo com Segurança e Transparência
+                      </h3>
+                      <p className="text-neutral-600">
+                        A dinâmica operacional de <strong>personal shopper Paraguai</strong> é estruturada em etapas claras: recebimento da lista de desejos do cliente de São Paulo, cotação do dólar comercial em tempo real, compra em lojas credenciadas, conferência minuciosa de cada item e despacho nacional com rastreamento integral. Esse fluxo remove a incerteza do processo e assegura que você receba exatamente o que contratou.
+                      </p>
+                    </div>
+
+                    {/* PILAR 3 - LINK JUICE IPHONE */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        3. Personal Shopper Paraguai em São Paulo para Importação de Eletrônicos
+                      </h3>
+                      <p className="text-neutral-600">
+                        A tecnologia lidera as buscas de quem contrata <strong>personal shopper Paraguai</strong> na capital paulista. Para clientes que desejam <Link href="/comprar-iphone-no-paraguai" className="text-cyan-700 font-bold hover:underline">comprar iPhone no Paraguai</Link>, a disparidade tributária viabiliza aparelhos lacrados até 50% mais baratos do que no varejo de SP. O comprador adquire equipamentos com garantia oficial Apple de 1 ano válida no Brasil e número de série auditado antes do fechamento.
+                      </p>
+                    </div>
+
+                    {/* PILAR 4 - LINK JUICE PERFUMES & COSMÉTICOS */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        4. Personal Shopper Paraguai em São Paulo: Produtos 100% Originais
+                      </h3>
+                      <p className="text-neutral-600">
+                        A proliferação de réplicas no mercado paralelo paulistano é o maior pesadelo do comprador. Através do nosso <strong>personal shopper Paraguai</strong>, viabilizamos <Link href="/comprar-perfumes-no-paraguai" className="text-cyan-700 font-bold hover:underline">comprar perfumes no Paraguai</Link> com batch code auditado em tempo real, além de opções para <Link href="/comprar-cosmeticos-no-paraguai" className="text-cyan-700 font-bold hover:underline">comprar cosméticos no Paraguai</Link> (linhas capilares Kérastase e skincare) exclusivamente em importadoras oficiais homologadas.
+                      </p>
+                    </div>
+
+                    {/* PILAR 5 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        5. Personal Shopper Paraguai em São Paulo: Economia Real vs Compras no Brasil
+                      </h3>
+                      <p className="text-neutral-600">
+                        Ao calcular a paridade entre o imposto sobre consumo brasileiro e a política de isenções paraguaia, o ganho financeiro proporcionado pelo <strong>personal shopper Paraguai</strong> supera qualquer programa de cashback dos shoppings de São Paulo. Mesmo considerando o frete interestadual, o comprador economiza milhares de reais em compras pessoais ou reposição de ferramentas corporativas.
+                      </p>
+                    </div>
+
+                    {/* PILAR 6 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        6. Personal Shopper Paraguai em São Paulo: Validação por Chamada de Vídeo ao Vivo
+                      </h3>
+                      <p className="text-neutral-600">
+                        A transparência é a base da nossa governança operacional. O processo de <strong>personal shopper Paraguai</strong> permite que o cliente de São Paulo acompanhe a compra em tempo real via chamada de vídeo e fotos em alta definição. O equipamento é testado, a caixa é inspecionada na presença virtual do cliente e a aprovação final é dada antes do item deixar a loja física.
+                      </p>
+                    </div>
+
+                    {/* PILAR 7 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        7. Personal Shopper Paraguai em São Paulo com Logística Segura e Rastreamento
+                      </h3>
+                      <p className="text-neutral-600">
+                        O despacho de mercadorias no ecossistema de <strong>personal shopper Paraguai</strong> para a capital paulista e Grande SP requer embalagens reforçadas, plástico bolha industrial de alta densidade e caixas anônimas para inibir extravios. Todas as remessas contam com seguro de carga e código de rastreamento oficial para você monitorar até a porta da sua casa.
+                      </p>
+                    </div>
+
+                    {/* PILAR 8 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        8. Personal Shopper Paraguai em São Paulo: Conformidade Aduaneira e Legalidade
+                      </h3>
+                      <p className="text-neutral-600">
+                        Trabalhar em conformidade com as normas aduaneiras é indispensável. A consultoria de <strong>personal shopper Paraguai</strong> orienta o comprador acerca do limite de cota terrestre vigente ($500 dólares por CPF), regras de declaração de bagagem e procedimentos legais de desembaraço aduaneiro na Ponte da Amizade, prevenindo qualquer problema fiscal.
+                      </p>
+                    </div>
+
+                    {/* PILAR 9 - LINK JUICE NOTEBOOK */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        9. Personal Shopper Paraguai em São Paulo para Lojistas e Revendedores B2B
+                      </h3>
+                      <p className="text-neutral-600">
+                        Empreendedores, criadores de conteúdo e escritórios em São Paulo utilizam o serviço de <strong>personal shopper Paraguai</strong> para equipar suas operações. Auxiliamos empresas paulistanas a <Link href="/comprar-notebook-no-paraguai" className="text-cyan-700 font-bold hover:underline">comprar notebook no Paraguai</Link> (linhas Apple MacBook Pro e laptops gamer), gerando economia drástica de custos operacionais e alavancando margens no mercado local.
+                      </p>
+                    </div>
+
+                    {/* PILAR 10 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        10. Personal Shopper Paraguai em São Paulo: Lojas Oficiais em Ciudad del Este
+                      </h3>
+                      <p className="text-neutral-600">
+                        Nem toda loja do Paraguai oferece os mesmos termos de garantia. O <strong>personal shopper Paraguai</strong> atua com um catálogo criterioso de parceiros tradicionais como Cellshop, Nissei, Madrid Center e Mega Eletrônicos. Comparamos variações cambiais entre estabelecimentos, garantindo que o cliente de SP usufrua das melhores cotações sem surpresas.
+                      </p>
+                    </div>
+
+                    {/* PILAR 11 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        11. Personal Shopper Paraguai em São Paulo sem Riscos de Golpes Virtuais
+                      </h3>
+                      <p className="text-neutral-600">
+                        A internet está saturada de falsos intermediadores e perfis fakes de redes sociais. Contratar uma empresa séria de <strong>personal shopper Paraguai</strong> com infraestrutura e validação técnica da <em>EG Empório Digital</em> blinda seu patrimônio contra golpes de frete falso, depósitos antecipados sem envio e troca de produtos lacrados por versões inferiores.
+                      </p>
+                    </div>
+
+                    {/* PILAR 12 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        12. Contratar Personal Shopper Paraguai em São Paulo com a EG Imports Oficial
+                      </h3>
+                      <p className="text-neutral-600">
+                        A união entre tecnologia de ponta, rastreamento ativo e integridade comercial faz da contratação do <strong>personal shopper Paraguai</strong> a rota mais inteligente para compras transfronteiriças. Converse diretamente com nossos especialistas no WhatsApp e receba um orçamento detalhado com cotação do dia, custos discriminados e prazo exato de entrega em São Paulo.
+                      </p>
+                    </div>
+
+                  </div>
+
+                  <p className="mt-8 border-l-4 border-cyan-500 pl-4 italic text-neutral-500 text-xs md:text-sm">
+                    Aviso de Transparência: A EG Imports Paraguai atua sob governança técnica da EG Empório Digital. Todas as operações respeitam as diretrizes de importação e trânsito aduaneiro dos órgãos competentes.
                   </p>
-                </div>
-
-                {/* PILAR 3 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    3. Personal Shopper Paraguai em São Paulo para Importação de Eletrônicos
-                  </h3>
-                  <p className="text-neutral-600">
-                    A tecnologia lidera as buscas de quem contrata <strong>personal shopper Paraguai</strong> na capital paulista. A diferença tributária torna iPhones, MacBooks, consoles de última geração, placas de vídeo e câmeras profissionais até 60% mais baratos do que no varejo de SP. O comprador adquire equipamentos lacrados, com garantia global e número de série auditado antes do pagamento.
-                  </p>
-                </div>
-
-                {/* PILAR 4 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    4. Personal Shopper Paraguai em São Paulo: Produtos 100% Originais
-                  </h3>
-                  <p className="text-neutral-600">
-                    A proliferação de réplicas no mercado paralelo paulistano é o maior pesadelo do comprador. Através do nosso <strong>personal shopper Paraguai</strong>, cada produto é adquirido exclusivamente em importadoras oficiais e revendas homologadas pelas fabricantes (Apple, Sony, DJI, JBL). Realizamos a conferência de selos holográficos, lacres e ativação de garantia diretamente no balcão da loja.
-                  </p>
-                </div>
-
-                {/* PILAR 5 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    5. Personal Shopper Paraguai em São Paulo: Economia Real vs Compras no Brasil
-                  </h3>
-                  <p className="text-neutral-600">
-                    Ao calcular a paridade entre o imposto sobre consumo brasileiro e a política de isenções paraguaia, o ganho financeiro proporcionado pelo <strong>personal shopper Paraguai</strong> supera qualquer programa de cashback dos shoppings de São Paulo. Mesmo considerando o frete interestadual, o comprador economiza milhares de reais em compras pessoais ou reposição de ferramentas corporativas.
-                  </p>
-                </div>
-
-                {/* PILAR 6 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    6. Personal Shopper Paraguai em São Paulo: Validação por Chamada de Vídeo ao Vivo
-                  </h3>
-                  <p className="text-neutral-600">
-                    A transparência é a base da nossa governança operacional. O processo de <strong>personal shopper Paraguai</strong> permite que o cliente de São Paulo acompanhe a compra em tempo real via chamada de vídeo e fotos em alta definição. O equipamento é testado, a caixa é inspecionada na presença virtual do cliente e a aprovação final é dada antes do item deixar a loja física.
-                  </p>
-                </div>
-
-                {/* PILAR 7 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    7. Personal Shopper Paraguai em São Paulo com Logística Segura e Rastreamento
-                  </h3>
-                  <p className="text-neutral-600">
-                    O despacho de mercadorias no ecossistema de <strong>personal shopper Paraguai</strong> para a capital paulista e Grande SP requer embalagens reforçadas, plástico bolha industrial de alta densidade e caixas anônimas para inibir extravios. Todas as remessas contam com seguro de carga e código de rastreamento oficial para você monitorar até a porta da sua casa.
-                  </p>
-                </div>
-
-                {/* PILAR 8 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    8. Personal Shopper Paraguai em São Paulo: Conformidade Aduaneira e Legalidade
-                  </h3>
-                  <p className="text-neutral-600">
-                    Trabalhar em conformidade com as normas aduaneiras é indispensável. A consultoria de <strong>personal shopper Paraguai</strong> orienta o comprador acerca do limite de cota terrestre vigente ($500 dólares por CPF), regras de declaração de bagagem e procedimentos legais de desembaraço aduaneiro na Ponte da Amizade, prevenindo qualquer problema fiscal.
-                  </p>
-                </div>
-
-                {/* PILAR 9 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    9. Personal Shopper Paraguai em São Paulo para Lojistas e Revendedores B2B
-                  </h3>
-                  <p className="text-neutral-600">
-                    Empreendedores e lojistas em São Paulo utilizam o serviço de <strong>personal shopper Paraguai</strong> como alavanca de margem de lucro. Através da compra consolidada de perfumaria de nicho, suplementos e periféricos de alta demanda, estruturamos pedidos fracionados recorrentes que abastecem comércios paulistanos sem a necessidade de deslocamento dos proprietários.
-                  </p>
-                </div>
-
-                {/* PILAR 10 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    10. Personal Shopper Paraguai em São Paulo: Lojas Oficiais em Ciudad del Este
-                  </h3>
-                  <p className="text-neutral-600">
-                    Nem toda loja do Paraguai oferece os mesmos termos de garantia. O <strong>personal shopper Paraguai</strong> atua com um catálogo criterioso de parceiros tradicionais como Cellshop, Nissei, Madrid Center e Mega Eletrônicos. Comparamos variações cambiais entre estabelecimentos, garantindo que o cliente de SP usufrua das melhores cotações sem surpresas.
-                  </p>
-                </div>
-
-                {/* PILAR 11 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    11. Personal Shopper Paraguai em São Paulo sem Riscos de Golpes Virtuais
-                  </h3>
-                  <p className="text-neutral-600">
-                    A internet está saturada de falsos intermediadores e perfis fakes de redes sociais. Contratar uma empresa séria de <strong>personal shopper Paraguai</strong> com infraestrutura e validação técnica da <em>EG Empório Digital</em> blinda seu patrimônio contra golpes de frete falso, depósitos antecipados sem envio e troca de produtos lacrados por versões inferiores.
-                  </p>
-                </div>
-
-                {/* PILAR 12 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    12. Contratar Personal Shopper Paraguai em São Paulo com a EG Imports Oficial
-                  </h3>
-                  <p className="text-neutral-600">
-                    A união entre tecnologia de ponta, rastreamento ativo e integridade comercial faz da contratação do <strong>personal shopper Paraguai</strong> a rota mais inteligente para compras transfronteiriças. Converse diretamente com nossos especialistas no WhatsApp e receba um orçamento detalhado com cotação do dia, custos discriminados e prazo exato de entrega em São Paulo.
-                  </p>
-                </div>
-
-              </div>
-
-              <p className="mt-8 border-l-4 border-cyan-500 pl-4 italic text-neutral-500 text-xs md:text-sm">
-                Aviso de Transparência: A EG Imports Paraguai atua sob governança técnica da EG Empório Digital. Todas as operações respeitam as diretrizes de importação e trânsito aduaneiro dos órgãos competentes.
-              </p>
 
                 </div>
               </div>

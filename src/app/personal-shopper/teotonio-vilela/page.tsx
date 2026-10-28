@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 // =========================================================================
 // 1. METADADOS (NEXT.JS APP ROUTER)
@@ -227,7 +228,7 @@ export default function TeotonioVilelaPage() {
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-600">
                     sem sair de casa
                   </span>{" "}
-                  no Teotônio Vilela e com total segurança.
+                  no Teotônio Vilela com Personal Shopper.
                 </h1>
 
                 {/* Imagem Mobile (COM TODOS OS CARDS E BADGES ORIGINAIS) */}
@@ -363,7 +364,7 @@ export default function TeotonioVilelaPage() {
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-neutral-950 leading-[1.15]">
                 Como funciona sua compra no Teotônio Vilela do{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-600">
-                  início ao fim
+                  início ao fim com Personal Shopper
                 </span>
               </h2>
               <p className="text-neutral-600 text-base sm:text-lg mt-4 font-normal max-w-xl mx-auto leading-relaxed">
@@ -696,7 +697,7 @@ export default function TeotonioVilelaPage() {
                 Dúvidas Frequentes • Teotônio Vilela & Sapopemba
               </span>
               <h2 className="text-2xl sm:text-3xl md:text-4xl text-neutral-950 font-black tracking-tight leading-tight">
-                Perguntas sobre a compra no{" "}
+                Perguntas sobre Personal Shopper no{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600">
                   Teotônio Vilela
                 </span>
@@ -755,6 +756,7 @@ export default function TeotonioVilelaPage() {
 
         {/* ========================================================
             AUTHORITY PILLARS (ACORDEON COM W-FULL E TRAVADO À ESQUERDA)
+            COM LINK JUICE INTEGRADO AOS HUBS OFICIAIS
            ======================================================== */}
         <section id="tese-autoridade" className="w-full max-w-7xl mx-auto pt-2 pb-6 px-4 md:px-6 relative z-10 text-left">
           <details className="group w-full text-left">
@@ -767,7 +769,7 @@ export default function TeotonioVilelaPage() {
                 <div className="flex items-center gap-4 text-left">
                   <h2 className="text-2xl md:text-4xl text-neutral-900 font-extrabold uppercase tracking-tight leading-tight text-left">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600">
-                      Autoridade em Importação no Teotônio Vilela
+                      Personal Shopper no Teotônio Vilela
                     </span>
                   </h2>
 
@@ -788,138 +790,138 @@ export default function TeotonioVilelaPage() {
             <div className="grid grid-rows-[0fr] group-open:grid-rows-[1fr] transition-[grid-template-rows] duration-700 ease-in-out">
               <div className="overflow-hidden">
                 <div className="py-8 text-neutral-700 text-sm md:text-base leading-relaxed text-justify font-normal border-t border-neutral-200 mt-4">
-              <p className="mb-8 text-neutral-800">
-                A <strong>EG Imports Paraguai</strong> não atua como mera intermediária de pacotes; nós operamos uma estrutura proprietária de compras assistidas em Ciudad del Este desenhada para proteger o capital do comprador e lojista do <strong>Teotônio Vilela e eixo da Sapopemba</strong>. Nossa metodologia une inspeção física, blindagem tributária e auditoria fiscal em 12 pilares técnicos fundamentais para quem busca economizar até 60% com procedência comprovada:
-              </p>
-
-              {/* Grid Responsivo 12 Pilares - PALAVRA-CHAVE MARTELADA: Personal Shopper Paraguai no Teotônio Vilela */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-10">
-                
-                {/* PILAR 1 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    1. Personal Shopper Paraguai no Teotônio Vilela: Assessoria Presencial de Elite
-                  </h3>
-                  <p className="text-neutral-600">
-                    Comprar além da fronteira exige presença física especializada. O serviço de <strong>personal shopper Paraguai no Teotônio Vilela</strong> elimina a necessidade de viagens longas saindo da Zona Leste até Foz do Iguaçu. Nossos consultores atuam in loco nos maiores polos comerciais de Ciudad del Este, mapeando estoques em tempo real e negociando diretamente com distribuidores autorizados para garantir sempre o menor preço com nota legal.
+                  <p className="mb-8 text-neutral-800">
+                    A <strong>EG Imports Paraguai</strong> não atua como mera intermediária de pacotes; nós operamos uma estrutura proprietária de compras assistidas em Ciudad del Este desenhada para proteger o capital do comprador e lojista do <strong>Teotônio Vilela e eixo da Sapopemba</strong>. Através do nosso canal oficial de <Link href="/personal-shopper" className="text-cyan-700 font-bold hover:underline">personal shopper no Paraguai</Link>, unimos inspeção física, blindagem tributária e auditoria fiscal em 12 pilares técnicos fundamentais para quem busca economizar até 60% com procedência comprovada:
                   </p>
-                </div>
 
-                {/* PILAR 2 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    2. Personal Shopper Paraguai no Teotônio Vilela: Economia Direta no Eixo Sapopemba
-                  </h3>
-                  <p className="text-neutral-600">
-                    O corredor comercial do Teotônio Vilela, Jardim Imperador e Grimaldi demanda preços competitivos. Com o <strong>personal shopper Paraguai no Teotônio Vilela</strong>, você foge das margens inflacionadas do comércio intermediário paulistano, viabilizando compras com economia real de 35% a 60% convertidas no câmbio comercial oficial do dia.
+                  {/* Grid Responsivo 12 Pilares - PALAVRA-CHAVE MARTELADA: Personal Shopper Paraguai no Teotônio Vilela */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-10">
+                    
+                    {/* PILAR 1 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        1. Personal Shopper Paraguai no Teotônio Vilela: Assessoria Presencial de Elite
+                      </h3>
+                      <p className="text-neutral-600">
+                        Comprar além da fronteira exige presença física especializada. O serviço de <strong>personal shopper Paraguai no Teotônio Vilela</strong> elimina a necessidade de viagens longas saindo da Zona Leste até Foz do Iguaçu. Nossos consultores atuam in loco nos maiores polos comerciais de Ciudad del Este, mapeando estoques em tempo real e negociando diretamente com distribuidores autorizados para garantir sempre o menor preço com nota legal.
+                      </p>
+                    </div>
+
+                    {/* PILAR 2 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        2. Personal Shopper Paraguai no Teotônio Vilela: Economia Direta no Eixo Sapopemba
+                      </h3>
+                      <p className="text-neutral-600">
+                        O corredor comercial do Teotônio Vilela, Jardim Imperador e Grimaldi demanda preços competitivos. Com o <strong>personal shopper Paraguai no Teotônio Vilela</strong>, você foge das margens inflacionadas do comércio intermediário paulistano, viabilizando compras com economia real de 35% a 60% convertidas no câmbio comercial oficial do dia.
+                      </p>
+                    </div>
+
+                    {/* PILAR 3 - LINK JUICE IPHONE */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        3. Personal Shopper Paraguai no Teotônio Vilela para Linha Apple e iPhones Lacrados
+                      </h3>
+                      <p className="text-neutral-600">
+                        A procura por tecnologia de ponta lidera os pedidos dos moradores e comerciantes da região da Fazenda da Juta e Sapopemba. Para quem deseja <Link href="/comprar-iphone-no-paraguai" className="text-cyan-700 font-bold hover:underline">comprar iPhone no Paraguai</Link>, o <strong>personal shopper Paraguai no Teotônio Vilela</strong> viabiliza aparelhos 100% lacrados de fábrica, com garantia global de 1 ano Apple válida no Brasil e número de série auditado antes do pagamento.
+                      </p>
+                    </div>
+
+                    {/* PILAR 4 - LINK JUICE PERFUMES & COSMÉTICOS */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        4. Personal Shopper Paraguai no Teotônio Vilela: Perfumes Importados e Cosméticos Originais
+                      </h3>
+                      <p className="text-neutral-600">
+                        O mercado paralelo está cheio de réplicas e lotes adulterados. Através do nosso <strong>personal shopper Paraguai no Teotônio Vilela</strong>, direcionamos pedidos para quem quer <Link href="/comprar-perfumes-no-paraguai" className="text-cyan-700 font-bold hover:underline">comprar perfumes no Paraguai</Link> com batch code auditado no balcão, ou <Link href="/comprar-cosmeticos-no-paraguai" className="text-cyan-700 font-bold hover:underline">comprar cosméticos no Paraguai</Link> (linhas capilares Kérastase e skincare profissional) adquiridos exclusivamente em importadoras oficiais com lacres intactos.
+                      </p>
+                    </div>
+
+                    {/* PILAR 5 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        5. Personal Shopper Paraguai no Teotônio Vilela com Vídeo Chamada e Conferência de Lacre
+                      </h3>
+                      <p className="text-neutral-600">
+                        A transparência é a base do nosso atendimento na Zona Leste. O processo de <strong>personal shopper Paraguai no Teotônio Vilela</strong> permite que você acompanhe a compra em tempo real: filmamos o produto no balcão da loja em Ciudad del Este, conferimos o lacre de fábrica e atestamos o funcionamento antes de embalar para envio.
+                      </p>
+                    </div>
+
+                    {/* PILAR 6 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        6. Personal Shopper Paraguai no Teotônio Vilela: Compras Seguras nas Lojas Oficiais
+                      </h3>
+                      <p className="text-neutral-600">
+                        Não arriscamos seu patrimônio em bancas informais. O serviço de <strong>personal shopper Paraguai no Teotônio Vilela</strong> opera unicamente em parceiros consolidados com décadas de mercado, como Cellshop, Nissei, Madrid Center e Mega Eletrônicos, garantindo suporte e nota fiscal paraguaia legítima.
+                      </p>
+                    </div>
+
+                    {/* PILAR 7 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        7. Personal Shopper Paraguai no Teotônio Vilela com Entrega Rápida e Seguro na Zona Leste
+                      </h3>
+                      <p className="text-neutral-600">
+                        A logística até o Teotônio Vilela conta com embalagens industriais reforçadas anti-impacto. Toda encomenda intermediada pelo <strong>personal shopper Paraguai no Teotônio Vilela</strong> possui seguro integral de carga e código de rastreamento oficial ativo para acompanhar cada etapa até a porta do seu endereço.
+                      </p>
+                    </div>
+
+                    {/* PILAR 8 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        8. Personal Shopper Paraguai no Teotônio Vilela: Conformidade Aduaneira e Legalidade Fiscal
+                      </h3>
+                      <p className="text-neutral-600">
+                        Atuar em conformidade com as normas federais é essencial. Nosso <strong>personal shopper Paraguai no Teotônio Vilela</strong> orienta os clientes sobre as cotas terrestres legais de importação ($500 dólares por CPF), trânsito aduaneiro e desembaraço correto, garantindo uma importação tranquila e 100% legalizada.
+                      </p>
+                    </div>
+
+                    {/* PILAR 9 - LINK JUICE NOTEBOOK */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        9. Personal Shopper Paraguai no Teotônio Vilela para Lojistas e Revendedores B2B
+                      </h3>
+                      <p className="text-neutral-600">
+                        Empreendedores do Teotônio Vilela, Sapopemba, São Mateus e Parque São Rafael utilizam nosso serviço para equipar suas lojas e assistências. Auxiliamos comerciantes e profissionais da região a <Link href="/comprar-notebook-no-paraguai" className="text-cyan-700 font-bold hover:underline">comprar notebook no Paraguai</Link> (linhas Apple MacBook Pro e laptops gamer de alta procura), aumentando a margem de lucro sem os custos de viagens.
+                      </p>
+                    </div>
+
+                    {/* PILAR 10 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        10. Personal Shopper Paraguai no Teotônio Vilela: Pagamento Facilitado em Reais via PIX
+                      </h3>
+                      <p className="text-neutral-600">
+                        Livre-se de taxas bancárias abusivas e IOF de cartão internacional. Com o <strong>personal shopper Paraguai no Teotônio Vilela</strong>, você realiza o pagamento em Reais via PIX ou cartão de crédito parcelado, com a cotação do dólar comercial do dia discriminada de forma limpa.
+                      </p>
+                    </div>
+
+                    {/* PILAR 11 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        11. Personal Shopper Paraguai no Teotônio Vilela sem Riscos de Golpes Virtuais
+                      </h3>
+                      <p className="text-neutral-600">
+                        Com a proliferação de perfis fakes prometendo produtos milagrosos na internet, contratar o <strong>personal shopper Paraguai no Teotônio Vilela</strong> com a solidez e infraestrutura técnica da <em>EG Empório Digital</em> protege seu dinheiro contra golpes de frete e produtos recondicionados.
+                      </p>
+                    </div>
+
+                    {/* PILAR 12 */}
+                    <div>
+                      <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
+                        12. Contratar Personal Shopper Paraguai no Teotônio Vilela com a EG Imports Oficial
+                      </h3>
+                      <p className="text-neutral-600">
+                        Aliamos auditoria presencial, envio segurado e suporte direto para quem está no Teotônio Vilela e em toda a Zona Leste. Converse com os consultores da <strong>EG Imports Paraguai</strong> no WhatsApp e solicite sua cotação gratuita sem nenhum compromisso.
+                      </p>
+                    </div>
+
+                  </div>
+
+                  <p className="mt-8 border-l-4 border-cyan-500 pl-4 italic text-neutral-500 text-xs md:text-sm">
+                    Aviso de Transparência: A EG Imports Paraguai atua sob governança técnica da EG Empório Digital. Todas as operações respeitam as diretrizes de importação e trânsito aduaneiro dos órgãos competentes.
                   </p>
-                </div>
-
-                {/* PILAR 3 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    3. Personal Shopper Paraguai no Teotônio Vilela para Linha Apple e iPhones Lacrados
-                  </h3>
-                  <p className="text-neutral-600">
-                    A procura por tecnologia de ponta lidera os pedidos dos moradores e comerciantes da região da Fazenda da Juta e Sapopemba. Com o <strong>personal shopper Paraguai no Teotônio Vilela</strong>, você adquire iPhones, MacBooks e iPads 100% lacrados de fábrica, com garantia global de 1 ano Apple e número de série auditado antes do pagamento.
-                  </p>
-                </div>
-
-                {/* PILAR 4 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    4. Personal Shopper Paraguai no Teotônio Vilela: Perfumes Importados e Cosméticos Originais
-                  </h3>
-                  <p className="text-neutral-600">
-                    O mercado paralelo está cheio de réplicas e lotes adulterados. Através do nosso <strong>personal shopper Paraguai no Teotônio Vilela</strong>, cada fragrância de grife (Dior, Creed, Chanel, Paco Rabanne) é adquirida exclusivamente em importadoras oficiais e distribuidores autorizados com lacre intacto e procedência certificada.
-                  </p>
-                </div>
-
-                {/* PILAR 5 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    5. Personal Shopper Paraguai no Teotônio Vilela com Vídeo Chamada e Conferência de Lacre
-                  </h3>
-                  <p className="text-neutral-600">
-                    A transparência é a base do nosso atendimento na Zona Leste. O processo de <strong>personal shopper Paraguai no Teotônio Vilela</strong> permite que você acompanhe a compra em tempo real: filmamos o produto no balcão da loja em Ciudad del Este, conferimos o lacre de fábrica e atestamos o funcionamento antes de embalar para envio.
-                  </p>
-                </div>
-
-                {/* PILAR 6 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    6. Personal Shopper Paraguai no Teotônio Vilela: Compras Seguras nas Lojas Oficiais
-                  </h3>
-                  <p className="text-neutral-600">
-                    Não arriscamos seu patrimônio em bancas informais. O serviço de <strong>personal shopper Paraguai no Teotônio Vilela</strong> opera unicamente em parceiros consolidados com décadas de mercado, como Cellshop, Nissei, Madrid Center e Mega Eletrônicos, garantindo suporte e nota fiscal paraguaia legítima.
-                  </p>
-                </div>
-
-                {/* PILAR 7 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    7. Personal Shopper Paraguai no Teotônio Vilela com Entrega Rápida e Seguro na Zona Leste
-                  </h3>
-                  <p className="text-neutral-600">
-                    A logística até o Teotônio Vilela conta com embalagens industriais reforçadas anti-impacto. Toda encomenda intermediada pelo <strong>personal shopper Paraguai no Teotônio Vilela</strong> possui seguro integral de carga e código de rastreamento oficial ativo para acompanhar cada etapa até a porta do seu endereço.
-                  </p>
-                </div>
-
-                {/* PILAR 8 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    8. Personal Shopper Paraguai no Teotônio Vilela: Conformidade Aduaneira e Legalidade Fiscal
-                  </h3>
-                  <p className="text-neutral-600">
-                    Atuar em conformidade com as normas federais é essencial. Nosso <strong>personal shopper Paraguai no Teotônio Vilela</strong> orienta os clientes sobre as cotas terrestres legais de importação ($500 dólares por CPF), trânsito aduaneiro e desembaraço correto, garantindo uma importação tranquila e 100% legalizada.
-                  </p>
-                </div>
-
-                {/* PILAR 9 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    9. Personal Shopper Paraguai no Teotônio Vilela para Lojistas e Revendedores B2B
-                  </h3>
-                  <p className="text-neutral-600">
-                    Empreendedores do Teotônio Vilela, Sapopemba, São Mateus e Parque São Rafael utilizam nosso <strong>personal shopper Paraguai no Teotônio Vilela</strong> para suprir seus comércios e assistências com eletrônicos, caixas de som e periféricos de alta procura, aumentando a margem de lucro sem custos de viagens.
-                  </p>
-                </div>
-
-                {/* PILAR 10 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    10. Personal Shopper Paraguai no Teotônio Vilela: Pagamento Facilitado em Reais via PIX
-                  </h3>
-                  <p className="text-neutral-600">
-                    Livre-se de taxas bancárias abusivas e IOF de cartão internacional. Com o <strong>personal shopper Paraguai no Teotônio Vilela</strong>, você realiza o pagamento em Reais via PIX ou cartão de crédito parcelado, com a cotação do dólar comercial do dia discriminada de forma limpa.
-                  </p>
-                </div>
-
-                {/* PILAR 11 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    11. Personal Shopper Paraguai no Teotônio Vilela sem Riscos de Golpes Virtuais
-                  </h3>
-                  <p className="text-neutral-600">
-                    Com a proliferação de perfis fakes prometendo produtos milagrosos na internet, contratar o <strong>personal shopper Paraguai no Teotônio Vilela</strong> com a solidez e infraestrutura técnica da <em>EG Empório Digital</em> protege seu dinheiro contra golpes de frete e produtos recondicionados.
-                  </p>
-                </div>
-
-                {/* PILAR 12 */}
-                <div>
-                  <h3 className="text-neutral-900 font-bold uppercase text-base md:text-lg mb-3 border-l-4 border-cyan-500 pl-4">
-                    12. Contratar Personal Shopper Paraguai no Teotônio Vilela com a EG Imports Oficial
-                  </h3>
-                  <p className="text-neutral-600">
-                    Aliamos auditoria presencial, envio segurado e suporte direto para quem está no Teotônio Vilela e em toda a Zona Leste. Converse com os consultores da <strong>EG Imports Paraguai</strong> no WhatsApp e solicite sua cotação gratuita sem nenhum compromisso.
-                  </p>
-                </div>
-
-              </div>
-
-              <p className="mt-8 border-l-4 border-cyan-500 pl-4 italic text-neutral-500 text-xs md:text-sm">
-                Aviso de Transparência: A EG Imports Paraguai atua sob governança técnica da EG Empório Digital. Todas as operações respeitam as diretrizes de importação e trânsito aduaneiro dos órgãos competentes.
-              </p>
 
                 </div>
               </div>

@@ -1,4 +1,13 @@
+import Link from "next/link";
+
 export default function Footer() {
+  const hubs = [
+    { name: "Personal Shopper Paraguai", href: "/personal-shopper" },
+    { name: "Comprar iPhone no Paraguai", href: "/comprar-iphone-no-paraguai" },
+    { name: "Comprar Perfumes no Paraguai", href: "/comprar-perfumes-no-paraguai" },
+    { name: "Comprar Cosméticos no Paraguai", href: "/comprar-cosmeticos-no-paraguai" },
+    { name: "Comprar Notebook no Paraguai", href: "/comprar-notebook-no-paraguai" },
+  ];
 
   return (
     <footer className="relative w-full bg-neutral-950 text-white overflow-hidden border-t border-neutral-850">
@@ -33,13 +42,14 @@ export default function Footer() {
 
             <div className="hidden sm:block h-8 w-px bg-white/10 mx-2" />
 
-            <p className="text-xs text-neutral-400 font-normal max-w-xs leading-relaxed text-center sm:text-left">
-              Importação assistida, conferência presencial por vídeo e envio segurado até você.
-            </p>
+            
           </div>
 
           {/* NAVEGAÇÃO INTERNA SLIM */}
           <nav className="flex flex-wrap items-center justify-center gap-6 text-xs sm:text-sm font-semibold text-neutral-300">
+            <Link href="/" className="hover:text-cyan-400 transition-colors">
+              Início
+            </Link>
             <a href="#como-funciona" className="hover:text-cyan-400 transition-colors">
               Como Funciona
             </a>
@@ -68,6 +78,29 @@ export default function Footer() {
             </a>
           </div>
 
+        </div>
+
+        {/* NAVEGAÇÃO DOS HUBS EM FORMATO VERTICAL (COLUNAS ELEGANTES) */}
+        <div className="py-6 border-b border-white/5 text-center sm:text-left">
+          <div className="mb-3 flex items-center justify-center sm:justify-start gap-1.5">
+            <span className="w-1.5 h-1.5 rounded-full bg-cyan-400" />
+            <span className="text-[10px] font-bold uppercase tracking-widest text-neutral-400">
+              Páginas Oficiais
+            </span>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-2.5 gap-x-8 text-xs font-medium text-neutral-400">
+            {hubs.map((hub, idx) => (
+              <Link 
+                key={idx} 
+                href={hub.href} 
+                className="hover:text-cyan-400 transition-colors duration-200 flex items-center justify-center sm:justify-start gap-2 group"
+              >
+                <span className="text-neutral-600 group-hover:text-cyan-400 transition-colors">›</span>
+                <span>{hub.name}</span>
+              </Link>
+            ))}
+          </div>
         </div>
 
         {/* PARTE INFERIOR: GRID ALINHADO COM LINK 100% CENTRALIZADO */}

@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   },
   description: "Compras assistidas e importação direta do Paraguai com máxima segurança, economia e procedência garantida.",
   applicationName: "EG Imports Paraguai",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
   alternates: {
     canonical: "https://importsparaguai.com.br/",
   },
@@ -17,9 +22,17 @@ export const metadata: Metadata = {
     title: "Personal Shopper Paraguai | Importação Segura",
     description: "Compras assistidas e importação direta do Paraguai com máxima segurança e procedência.",
     url: "https://importsparaguai.com.br/",
-    siteName: "EG Imports Paraguai", // Nome que reforça o branding nas redes e no Google
+    siteName: "EG Imports Paraguai",
     locale: "pt_BR",
     type: "website",
+    images: [
+      {
+        url: "https://importsparaguai.com.br/logo.png",
+        width: 800,
+        height: 800,
+        alt: "EG Imports Paraguai - Personal Shopper Oficial",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -61,6 +74,8 @@ const jsonLdGraph = {
       "@id": "https://importsparaguai.com.br/#business",
       "name": "EG Imports Paraguai",
       "url": "https://importsparaguai.com.br/",
+      "image": "https://importsparaguai.com.br/logo.png",
+      "logo": "https://importsparaguai.com.br/logo.png",
       "description": "Serviço especializado de Personal Shopper, assessoria de compras e importação segura do Paraguai para todo o Brasil.",
       "inLanguage": "pt-BR",
       "parentOrganization": {
