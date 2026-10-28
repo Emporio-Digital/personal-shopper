@@ -217,11 +217,11 @@ export default function PersonalShopperHubPage() {
                 </div>
 
                 <h1 className="text-3xl sm:text-5xl lg:text-[3.75rem] font-black tracking-tight leading-[1.12] text-neutral-950">
-                  Personal Shopper Compre{" "}
+                  Compre{" "}
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-600">
                     sem sair de casa
                   </span>{" "}
-                  com total segurança.
+                  com Personal Shopper.
                 </h1>
 
                 {/* Imagem Mobile */}
