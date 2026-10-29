@@ -10,11 +10,6 @@ export const metadata: Metadata = {
   },
   description: "Compras assistidas e importação direta do Paraguai com máxima segurança, economia e procedência garantida.",
   applicationName: "EG Imports Paraguai",
-  icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
-  },
   alternates: {
     canonical: "https://importsparaguai.com.br/",
   },
