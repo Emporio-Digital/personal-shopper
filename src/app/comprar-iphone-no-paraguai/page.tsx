@@ -50,8 +50,8 @@ const jsonLd = {
         "@type": "OfferCatalog",
         "name": "Modelos de iPhone Disponíveis no Paraguai",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Apple iPhone Linha Pro e Pro Max Lacrados" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Apple iPhone Linha Standard e Plus" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Apple iPhone Linha Pro e Pro Max Lacrados" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Apple iPhone Linha Standard e Plus" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Auditoria de IMEI no Portal Apple Coverage" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Transporte com Seguro Integral até o Destino" } }
         ]

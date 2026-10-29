@@ -50,8 +50,8 @@ const jsonLd = {
         "@type": "OfferCatalog",
         "name": "Catálogo de Perfumes Importados no Paraguai",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Perfumaria de Designer (Dior, Chanel, Tom Ford, Creed)" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Perfumaria de Nicho e Casas Árabes Lacradas" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Perfumaria de Designer (Dior, Chanel, Tom Ford, Creed)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Perfumaria de Nicho e Casas Árabes Lacradas" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Auditoria de Batch Code e Lacre ao Vivo no Balcão" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Despacho Nacional com Seguro Integral de Carga" } }
         ]

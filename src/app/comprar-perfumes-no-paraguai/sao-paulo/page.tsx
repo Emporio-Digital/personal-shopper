@@ -68,8 +68,8 @@ const jsonLd = {
         "@type": "OfferCatalog",
         "name": "Catálogo de Perfumes do Paraguai para São Paulo",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Perfumaria de Designer (Dior, Chanel, Tom Ford, Creed) para SP" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Perfumaria de Nicho e Casas Árabes Lacradas" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Perfumaria de Designer (Dior, Chanel, Tom Ford, Creed) para SP" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Perfumaria de Nicho e Casas Árabes Lacradas" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Auditoria de Batch Code e Lacre Celofane ao Vivo por Vídeo" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Envio Expresso com Seguro Integral de Carga para São Paulo" } }
         ]

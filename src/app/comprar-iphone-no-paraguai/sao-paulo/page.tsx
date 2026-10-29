@@ -68,8 +68,8 @@ const jsonLd = {
         "@type": "OfferCatalog",
         "name": "Modelos de iPhone do Paraguai para São Paulo",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Apple iPhone Linha Pro e Pro Max Lacrados para SP" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Apple iPhone Linha Standard e Plus" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Apple iPhone Linha Pro e Pro Max Lacrados para SP" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Apple iPhone Linha Standard e Plus" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Auditoria de IMEI no Portal Apple Coverage ao Vivo" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Envio Expresso com Seguro de Carga para São Paulo" } }
         ]

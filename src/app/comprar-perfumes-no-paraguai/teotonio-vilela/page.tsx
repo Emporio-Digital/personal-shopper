@@ -70,8 +70,8 @@ const jsonLd = {
         "@type": "OfferCatalog",
         "name": "Catálogo de Perfumes do Paraguai para o Teotônio Vilela",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Perfumaria de Designer (Dior, Chanel, Tom Ford, Creed) para o Teotônio Vilela" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Perfumaria de Nicho e Linhas Árabes Lacradas" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Perfumaria de Designer (Dior, Chanel, Tom Ford, Creed) para o Teotônio Vilela" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Perfumaria de Nicho e Linhas Árabes Lacradas" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Auditoria de Batch Code e Celofane ao Vivo por Vídeo" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Envio com Seguro de Carga Integral para o Eixo Sapopemba" } }
         ]

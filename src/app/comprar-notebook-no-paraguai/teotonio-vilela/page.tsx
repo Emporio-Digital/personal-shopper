@@ -70,8 +70,8 @@ const jsonLd = {
         "@type": "OfferCatalog",
         "name": "Catálogo de Notebooks do Paraguai para o Teotônio Vilela",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Apple MacBook Air e Pro Apple Silicon para o Teotônio Vilela" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Laptops Gamer de Alta Performance (GeForce RTX, Asus ROG, Alienware)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Apple MacBook Air e Pro Apple Silicon para o Teotônio Vilela" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Laptops Gamer de Alta Performance (GeForce RTX, Asus ROG, Alienware)" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Auditoria de Número de Série no Portal Oficial por Vídeo Chamada" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Envio com Seguro de Carga Integral para o Eixo Sapopemba" } }
         ]

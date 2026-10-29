@@ -50,8 +50,8 @@ const jsonLd = {
         "@type": "OfferCatalog",
         "name": "Catálogo de Notebooks e Informática no Paraguai",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Apple MacBook Air e MacBook Pro Apple Silicon Lacrados" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Notebooks Gamer de Alta Performance (Asus ROG, Alienware, Legion)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Apple MacBook Air e MacBook Pro Apple Silicon Lacrados" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Notebooks Gamer de Alta Performance (Asus ROG, Alienware, Legion)" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Conferência de Número de Série e Lacre por Chamada de Vídeo" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Despacho Aéreo/Rodoviário com Seguro Total de Carga" } }
         ]

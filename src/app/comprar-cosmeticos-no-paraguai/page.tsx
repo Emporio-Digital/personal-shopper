@@ -50,8 +50,8 @@ const jsonLd = {
         "@type": "OfferCatalog",
         "name": "Catálogo de Cosméticos Importados no Paraguai",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Tratamentos Capilares Profissionais (Kérastase, Olaplex, Wella)" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Dermocosméticos e Skincare de Luxo (Skinceuticals, La Roche)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tratamentos Capilares Profissionais (Kérastase, Olaplex, Wella)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dermocosméticos e Skincare de Luxo (Skinceuticals, La Roche)" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Inspeção de Lacres e Validade por Vídeo Chamada" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Despacho com Vedação Anti-Vazamento e Seguro Total" } }
         ]

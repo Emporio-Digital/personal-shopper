@@ -68,8 +68,8 @@ const jsonLd = {
         "@type": "OfferCatalog",
         "name": "Modelos de Notebooks do Paraguai para São Paulo",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Apple MacBook Air e MacBook Pro Apple Silicon para SP" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Notebooks Gamer de Alta Performance (GeForce RTX, Asus ROG, Alienware)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Apple MacBook Air e MacBook Pro Apple Silicon para SP" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Notebooks Gamer de Alta Performance (GeForce RTX, Asus ROG, Alienware)" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Auditoria de Número de Série no Portal Oficial ao Vivo" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Envio Expresso com Seguro de Carga Integral para São Paulo" } }
         ]

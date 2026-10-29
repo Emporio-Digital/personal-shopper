@@ -68,8 +68,8 @@ const jsonLd = {
         "@type": "OfferCatalog",
         "name": "Catálogo de Cosméticos do Paraguai para São Paulo",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Tratamentos Capilares Profissionais para Salões de SP (Kérastase, Olaplex)" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Dermocosméticos e Skincare de Alta Performance (Skinceuticals, La Roche)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tratamentos Capilares Profissionais para Salões de SP (Kérastase, Olaplex)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dermocosméticos e Skincare de Alta Performance (Skinceuticals, La Roche)" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Auditoria de Validade e Lacre por Chamada de Vídeo" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Envio Expresso com Vedação Térmica e Seguro Total para SP" } }
         ]

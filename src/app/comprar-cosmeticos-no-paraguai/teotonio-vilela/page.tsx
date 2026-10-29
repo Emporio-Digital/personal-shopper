@@ -70,8 +70,8 @@ const jsonLd = {
         "@type": "OfferCatalog",
         "name": "Catálogo de Cosméticos do Paraguai para o Teotônio Vilela",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Tratamentos Capilares Profissionais para Salões da Zona Leste (Kérastase, Olaplex)" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Dermocosméticos e Skincare de Alta Performance (Skinceuticals, La Roche)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tratamentos Capilares Profissionais para Salões da Zona Leste (Kérastase, Olaplex)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dermocosméticos e Skincare de Alta Performance (Skinceuticals, La Roche)" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Auditoria de Validade e Lacre por Vídeo Chamada ao Vivo" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Envio com Vedação Anti-Vazamento e Seguro de Carga para a Sapopemba" } }
         ]

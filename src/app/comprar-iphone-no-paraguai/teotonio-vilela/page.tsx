@@ -70,8 +70,8 @@ const jsonLd = {
         "@type": "OfferCatalog",
         "name": "Modelos de iPhone do Paraguai para o Teotônio Vilela",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Apple iPhone Linha Pro e Pro Max Lacrados para o Teotônio Vilela" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Apple iPhone Linha Standard e Plus" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Apple iPhone Linha Pro e Pro Max Lacrados para o Teotônio Vilela" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Apple iPhone Linha Standard e Plus" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Auditoria de IMEI e Lacre no Portal Apple Coverage ao Vivo" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Envio com Seguro de Carga para a Zona Leste de SP" } }
         ]
