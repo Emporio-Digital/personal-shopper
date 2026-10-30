@@ -172,12 +172,72 @@ export default function ComprarIphoneNoParaguaiPage() {
       name: "São Paulo",
       path: "/comprar-iphone-no-paraguai/sao-paulo",
       desc: "Envio expresso e seguro para toda a capital e grande SP.",
-      badge: "Rota Expressa"
+      badge: "Capital SP"
     },
     {
       name: "Teotônio Vilela",
       path: "/comprar-iphone-no-paraguai/teotonio-vilela",
       desc: "Estrutura dedicada para o polo Leste de São Paulo.",
+      badge: "Zona Leste SP"
+    },
+    {
+      name: "Av. Sapopemba",
+      path: "/comprar-iphone-no-paraguai/av-sapopemba",
+      desc: "Atendimento dedicado para o eixo comercial da Av. Sapopemba.",
+      badge: "Zona Leste SP"
+    },
+    {
+      name: "Carrão",
+      path: "/comprar-iphone-no-paraguai/carrao",
+      desc: "Envio seguro e assessoria presencial para o bairro do Carrão.",
+      badge: "Zona Leste SP"
+    },
+    {
+      name: "Guarulhos",
+      path: "/comprar-iphone-no-paraguai/guarulhos",
+      desc: "Distribuição e entrega blindada para toda a região de Guarulhos.",
+      badge: "Grande SP"
+    },
+    {
+      name: "Itaquera",
+      path: "/comprar-iphone-no-paraguai/itaquera",
+      desc: "Acesso facilitado e frete com seguro total para Itaquera e entorno.",
+      badge: "Zona Leste SP"
+    },
+    {
+      name: "Jd. Imperador",
+      path: "/comprar-iphone-no-paraguai/jd-imperador",
+      desc: "Estrutura e suporte regional para o Jardim Imperador.",
+      badge: "Zona Leste SP"
+    },
+    {
+      name: "Santo André",
+      path: "/comprar-iphone-no-paraguai/santo-andre",
+      desc: "Logística ágil e entrega garantida para o ABC em Santo André.",
+      badge: "Grande ABC"
+    },
+    {
+      name: "São Bernardo",
+      path: "/comprar-iphone-no-paraguai/sao-bernardo",
+      desc: "Atendimento para São Bernardo do Campo com rastreio em tempo real.",
+      badge: "Grande ABC"
+    },
+    {
+      name: "São Caetano",
+      path: "/comprar-iphone-no-paraguai/sao-caetano",
+      desc: "Envio seguro de iPhones lacrados para São Caetano do Sul.",
+      badge: "Grande ABC"
+    },
+    {
+      name: "Tatuapé",
+      path: "/comprar-iphone-no-paraguai/tatuape",
+      desc: "Rota direta e segura para o polo comercial do Tatuapé e Anália Franco.",
+      badge: "Zona Leste SP"
+    },
+    {
+      name: "Vila Prudente",
+      path: "/comprar-iphone-no-paraguai/vila-prudente",
+      desc: "Assessoria oficial e entrega rápida na região da Vila Prudente.",
       badge: "Zona Leste SP"
     }
   ];
